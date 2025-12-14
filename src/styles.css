@@ -22,9 +22,10 @@ body {
   width: 80%;
   padding: 15px 20px;
   border-radius: 4px;
-  border: none;
+  border: 1px solid #ffcedd;
   font-family: "Bricolage Grotesque", sans-serif;
   font-size: 18px;
+  font-weight: 500;
 }
 
 .weather-form-button {
@@ -36,6 +37,7 @@ body {
   font-family: "Bricolage Grotesque", sans-serif;
   font-size: 18px;
   width: 18%;
+  font-weight: 500;
 }
 main {
   margin: 20px;
@@ -43,6 +45,7 @@ main {
 .weather-city-name {
   margin: 0;
   margin-top: 20px;
+  font-size: 40px;
 }
 
 .weather-current-details {
@@ -59,8 +62,8 @@ main {
 }
 
 .weather-current-icon {
-  font-size: 44px;
-  margin-top: 20px;
+  font-size: 50px;
+  margin-top: 15px;
 }
 
 .weather-current-temperature {
@@ -74,18 +77,22 @@ main {
 ul {
   padding: 0;
   text-align: center;
-  padding-top: 20px;
+  padding: 20px 0;
   margin: 0;
 }
 
 li {
   list-style: none;
   display: inline-block;
-  margin: 15px;
+  border: 1px solid #ffcedd;
+  background: rgba(254, 252, 166, 0.2);
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 5px;
 }
 
 .weather-forecast-day {
-  font-size: 30px;
+  font-size: 25px;
 }
 .weather-forecast-icon {
   font-size: 30px;
