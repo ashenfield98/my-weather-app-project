@@ -48,6 +48,10 @@ main {
   font-size: 40px;
 }
 
+strong {
+  color: #ff9ebb;
+}
+
 .weather-current-details {
   margin: 0;
 }
