@@ -78,33 +78,11 @@ strong {
   font-size: 30px;
   margin-top: 15px;
 }
-ul {
-  padding: 0;
-  text-align: center;
-  padding: 20px 0;
-  margin: 0;
-}
 
-li {
-  list-style: none;
-  display: inline-block;
-  border: 1px solid #ffcedd;
-  background: rgba(254, 252, 166, 0.2);
-  border-radius: 10px;
-  padding: 5px 10px;
-  margin: 5px;
-}
-
-.weather-forecast-day {
-  font-size: 25px;
-}
-.weather-forecast-icon {
-  font-size: 30px;
-}
-
-.footer {
+footer {
   padding: 20px;
   text-align: center;
+  font-size: 14px;
 }
 
 a {
