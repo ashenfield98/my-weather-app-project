@@ -16,67 +16,80 @@
     <div class="weather-app-content">
       <header>
         <h1 class="header-title">Weather App</h1>
-        <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="Search" />
+        <form class="weather-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="weather-form-input"
+          />
+          <input type="submit" value="Search" class="weather-form-button" />
         </form>
       </header>
       <main>
-        <h1 class="city-name">Amsterdam</h1>
-        <p>
-          Friday 14 Dec, 12:55
-          <br />
-          Details about the weather
-        </p>
-        ⛅ 5°C
-        <ul>
-          <li>
-            Mon
-            <br />
-            ⛅5°C
-            <div>details</div>
-          </li>
-          <li>
-            Tue
-            <br />
-            ⛅5°C
-            <div>details</div>
-          </li>
-          <li>
-            Wed
-            <br />
-            ⛅5°C
-            <div>details</div>
-          </li>
-          <li>
-            Thu
-            <br />
-            ⛅5°C
-            <div>details</div>
-          </li>
-          <li>
-            Fri
-            <br />
-            ⛅5°C
-            <div>details</div>
-          </li>
-        </ul>
+        <div class="weather-current-container">
+          <div>
+            <h1 class="weather-city-name">Amsterdam</h1>
+            <p class="weather-current-details">
+              Friday 14 Dec, 12:55
+              <br />
+              Details about the weather
+            </p>
+          </div>
+          <div class="weather-current-display">
+            <span class="weather-current-icon">⛅</span>
+            <span class="weather-current-temperature">5</span>
+            <span class="weather-current-unit">°C</span>
+          </div>
+        </div>
+        <div class="weather-forecast">
+          <ul>
+            <li>
+              <span class="weather-forecast-day">Mon</span>
+              <br />
+              <p class="weather-forecast-icon">⛅5°C</p>
+            </li>
+            <li>
+              <span class="weather-forecast-day">Tue</span>
+              <br />
+              <p class="weather-forecast-icon">⛅5°C</p>
+            </li>
+            <li>
+              <span class="weather-forecast-day">Wed</span>
+              <br />
+              <p class="weather-forecast-icon">⛅5°C</p>
+            </li>
+            <li>
+              <span class="weather-forecast-day">Thu</span>
+              <br />
+              <p class="weather-forecast-icon">⛅5°C</p>
+            </li>
+            <li>
+              <span class="weather-forecast-day">Fre</span>
+              <br />
+              <p class="weather-forecast-icon">⛅5°C</p>
+            </li>
+          </ul>
+        </div>
       </main>
+
       <footer>
-        This project is coded by
-        <a href="https://github.com/ashenfield98" target="_blank"
-          >Ashley Enfield</a
+        <span class="footer">
+          This project is coded by
+          <a href="https://github.com/ashenfield98" target="_blank"
+            >Ashley Enfield</a
+          >
+          and is
+          <a
+            href="https://github.com/ashenfield98/my-weather-app-project"
+            target="_blank"
+            >on GitHub</a
+          >
+          and
+          <a href="https://ash-weather-application.netlify.app/" target="_blank"
+            >hosted on Netlify</a
+          >.</span
         >
-        and is
-        <a
-          href="https://github.com/ashenfield98/my-weather-app-project"
-          target="_blank"
-          >on GitHub</a
-        >
-        and
-        <a href="https://ash-weather-application.netlify.app/" target="_blank"
-          >hosted on Netlify</a
-        >.
       </footer>
     </div>
   </body>
