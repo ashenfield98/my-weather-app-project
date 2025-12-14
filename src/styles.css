@@ -1,0 +1,17 @@
+body {
+  background: rgba(254, 252, 166, 0.6);
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.weather-app-content {
+  background: #fff;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.header-title {
+  text-align: center;
+  padding: 15px 20px;
+}
