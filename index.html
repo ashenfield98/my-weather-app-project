@@ -16,12 +16,13 @@
     <div class="weather-app-content">
       <header>
         <h1 class="header-title">Weather App</h1>
-        <form class="weather-form">
+        <form class="weather-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="weather-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="weather-form-button" />
         </form>
@@ -29,11 +30,11 @@
       <main>
         <div class="weather-current-container">
           <div>
-            <h1 class="weather-city-name">Amsterdam</h1>
+            <h1 class="weather-city-name" id="city-name">Amsterdam</h1>
             <p class="weather-current-details">
-              Friday 14 Dec, 12:55
+              Friday 14 Dec 12:55
               <br />
-              Details about the weather
+              Humidity: <strong>80%</strong>, Wind: <strong>0.5 km/h</strong>
             </p>
           </div>
           <div class="weather-current-display">
@@ -92,5 +93,7 @@
         >
       </footer>
     </div>
+
+    <script src="src/index.js"></script>
   </body>
 </html>
